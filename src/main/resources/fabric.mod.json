@@ -1,0 +1,26 @@
+{
+    "schemaVersion": 1,
+    "id": "bettertrims-tweaks",
+    "version": "${version}",
+    "name": "BetterTrims Tweaks",
+    "description": "Mixin tweaks for BetterTrims",
+    "authors": ["Mervyn"],
+    "contact": {},
+    "license": "MIT",
+    "icon": "assets/bettertrims-tweaks/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.yourname.bettertrimstweaks.BetterTrimsTweaks"
+        ]
+    },
+    "mixins": [
+        "bettertrims-tweaks.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.16.0",
+        "minecraft": "~1.20.1",
+        "java": ">=17",
+        "bettertrims": "*"
+    }
+}

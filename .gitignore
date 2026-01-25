@@ -1,0 +1,36 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.code-workspace
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Runtime
+run/
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Decompiled reference (keep but don't track changes)
+decompiled/
+
+# Original JARs
+BetterTrims 2.3.2/
+
+# Tools
+generate_logo.py
+icon.png
+logo.png

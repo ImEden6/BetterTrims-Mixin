@@ -1,0 +1,13 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.yourname.bettertrimstweaks.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+        "GuardianEntityMixin"
+    ],
+    "client": [],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
