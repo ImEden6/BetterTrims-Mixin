@@ -1,4 +1,5 @@
-package com.yourname.bettertrimstweaks.mixin;
+package com.mervyn.bettertrimstweaks.mixin;
+
 
 import com.bawnorton.bettertrims.config.ConfigManager;
 import com.bawnorton.bettertrims.effect.ArmorTrimEffects;

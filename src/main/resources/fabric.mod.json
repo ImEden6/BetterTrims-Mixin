@@ -11,7 +11,8 @@
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.yourname.bettertrimstweaks.BetterTrimsTweaks"
+            "com.mervyn.bettertrimstweaks.BetterTrimsTweaks"
+
         ]
     },
     "mixins": [
