@@ -20,14 +20,11 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Mixin(GuardianEntity.class)
 public abstract class GuardianEntityMixin {
 
-    @Shadow
-    public abstract EntityType<?> getType();
-
     @Inject(method = "setTarget", at = @At("HEAD"), cancellable = true)
     private void betterTrimsTweaks$preventTargetingTrimmedPlayers(LivingEntity target, CallbackInfo ci) {
         if (!ConfigManager.getConfig().prismarineShardEffects.guardiansIgnore)
             return;
-        if (this.getType() == EntityType.ELDER_GUARDIAN)
+        if ((Object)this instanceof net.minecraft.entity.mob.ElderGuardianEntity)
             return;
 
         if (target instanceof PlayerEntity && target instanceof LivingEntityExtender extender) {

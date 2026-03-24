@@ -32,5 +32,11 @@ BetterTrims 2.3.2/
 
 # Tools
 generate_logo.py
-icon.png
-logo.png
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.svg
+*.pdf
+
