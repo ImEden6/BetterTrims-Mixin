@@ -2,6 +2,8 @@
 .gradle/
 build/
 out/
+bin/
+
 
 # IDE
 .idea/
@@ -39,4 +41,6 @@ generate_logo.py
 *.webp
 *.svg
 *.pdf
+bettertrims-2.3.2.jar
+
 

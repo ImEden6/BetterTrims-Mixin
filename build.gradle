@@ -29,7 +29,8 @@ dependencies {
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
     
     // BetterTrims - compile against
-    modCompileOnly files("BetterTrims 2.3.2/bettertrims-2.3.2.jar")
+    modCompileOnly files("bettertrims-2.3.2.jar")
+
 }
 
 processResources {
